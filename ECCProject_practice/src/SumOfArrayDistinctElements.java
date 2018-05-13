@@ -35,8 +35,9 @@ public class SumOfArrayDistinctElements {
         		counter++;        		        		
         	}        	        	
         }
-        if(counter>1) {
-        	 System.out.println("counter > 1-->returning false");
+        System.out.println("counter value is-->"+counter);
+        if(counter==1) {
+        	 System.out.println("counter == 1-->returning false");
              return false;
         }
         System.out.println("counter < 1-->returning true");
